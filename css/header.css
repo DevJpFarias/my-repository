@@ -1,0 +1,61 @@
+.icon-right {
+  float: left;
+  position: absolute;
+  left: 1.4%;
+  top: 5%;
+  width: 30px;
+  z-index: 1;
+}
+
+.main-header {
+  background-color: purple;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5%;
+  content-visibility: hidden;
+
+  transition-property: width, content-visibility;
+  transition-duration: 1s;
+}
+
+.main-header:hover {
+  color: rgb(255, 255, 0, .8);
+  background-color: rgb(128, 0, 128);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 100%;
+  width: 35%;
+  float: left;
+  padding: 124px 72px 36px;
+  box-sizing: border-box;
+  text-align: right;
+  content-visibility: visible;
+
+  transition-property: width;
+  transition-duration: 1s;
+}
+
+.icon-left {
+  color: yellow;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display: block;
+  width: 30px;
+}
+
+.main-header-img {
+  border: 2px solid rgba(255, 255, 0, 0.8);
+  border-radius: 50%;
+  height: 100px;
+}
+
+.main-header-title {
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: normal;
+}
