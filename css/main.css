@@ -2,3 +2,18 @@
   padding-left: 5%;
   text-align: center;
 }
+
+.main-content-section {
+  padding-top: 10rem;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.main-content h2 {
+  font-size: 3rem;
+}
+
+.main-content p {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
